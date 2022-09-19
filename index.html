@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/b47b5db95e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index1.html"><img src="images/nasa logo.png" width="300" height="90"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="missions.html">Missions</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="nasaTV.html">Nasa TV</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Greetings, space enthusiast!</h1>
+            <p>Welcome to the "not so official page" of The National Aeronautics and Space Administration(NASA) .
+                <br>Here you may be able to find some interesting stuff about NASA, and their many adventures, so feel free to explore for as long as you like.
+            </p>
+            <a href="https://www.nasa.gov" class="visit-button">Here you can find the official page</a>
+            <br>
+            <br>
+            <br>
+            <p><b>Scroll / Swipe to se more content</b></p>
+        </div>
+
+
+    </section>
+
+
+
+    <!--interests-->
+    <sction class="interest">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Things that might interest you</h1>
+        <p> Check out the Missions Section for more interesting stories</p>
+
+        <div class="row">
+            <div class="interest-col">
+                <h3> The most famous mission </h3>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                <img src="images/apollo 11 mission.jpg" width="300" height="200">
+            </div>
+            <div class="interest-col">
+                <h3> Recognizable faces</h3>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <img src="images/apollo 11 crew.jpg" width="300" height="200">
+            </div>
+            <div class="interest-col">
+                <h3> The greatest picture to have been taken </h3>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <img src="images/greatest pic ever.jpg" width="300" height="200">
+            </div>
+
+
+        </div>
+
+        <hr>
+    </sction>
+
+
+    <!--section2-->
+
+
+    <section class="section2">
+
+        <h1> Mini Gallery Section </h1>
+        <p> Check out the "Gallery" section for more images. </p>
+
+        <div class="row">
+
+            <div class="gal-col">
+                <img src="images/nasa rocket.jpg" width="300" height="600">
+                <div class="layer">
+                    <h3> Orion Spacecraft </h3>
+                </div>
+            </div>
+            <div class="gal-col">
+                <img src="images/iss pic.jpg" width="300" height="600">
+                <div class="layer">
+                    <h3> The ISS </h3>
+                </div>
+            </div>
+            <div class="gal-col">
+                <img src="images/nasa hq1.jpg " width="300" height="600">
+                <div class="layer">
+                    <h3> The Headquarters </h3>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    </section>
+
+
+
+    <!--Footer-->
+
+    <section class="footer">
+        <h4> More from Us </h4>
+        <p> You can also find more content on our other social media platforms. <br> So make sure to follow us there as well</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/NASA"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/nasa/?hl=en"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ"><i class="fa fa-youtube"></i></a>
+            <a href="https://twitter.com/NASA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+        </div>
+        <p>Made by Hamdi Junior Ajeti</p>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!--JavaScript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
